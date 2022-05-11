@@ -1,0 +1,67 @@
+.contenedor {
+  background: rgb(32, 35, 42);
+  box-shadow: 6px 6px 13px rgb(26, 28, 34), -6px -6px 13px rgb(38, 42, 50);
+  border-radius: 4rem;
+  margin-bottom: 0.8rem;
+}
+
+.tarjeta {
+  padding: 0.5rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tarjeta:hover {
+  margin-bottom: 1rem;
+}
+
+.tarjeta__vista {
+  display: flex;
+  align-items: center;
+}
+
+.tarjeta__imagen {
+  background-color: black;
+  margin-right: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.tarjeta__texto > h4 {
+  margin-bottom: 0.4rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.tarjeta__texto > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.7rem;
+}
+
+.tarjeta__hora {
+  width: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+.tarjeta__hora--hora {
+  font-weight: 800;
+  color: rgb(166, 78, 85);
+}
+
+.tarjeta__hora--mas {
+  background-color: #f24b4b;
+  padding: 0.15rem;
+  margin-top: 0.2rem;
+  border-radius: 30%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.hidden {
+  visibility: hidden;
+}
